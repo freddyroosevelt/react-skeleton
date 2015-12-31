@@ -1,0 +1,19 @@
+{
+  "name": "react-skeleton",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js",  
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Freddy Roosevelt",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "watchify": "^3.6.1"
+  }
+}
